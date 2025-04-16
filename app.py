@@ -3,7 +3,8 @@ import google.generativeai as genai
 import re 
 
 # Setup Gemini API
-genai.configure(api_key="add-your-api-key")
+api_key = st.secrets["google"]["gemini_api_key"]
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Helper function to format poem with line breaks

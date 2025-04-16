@@ -1,0 +1,22 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE/editor files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore secrets or sensitive files
+*.env
+*.toml
+*.json
+
+# Ignore log files
+*.log
+
+# Ignore Streamlit secrets file
+.streamlit/secrets.toml

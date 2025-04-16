@@ -20,3 +20,17 @@ A simple Streamlit web app that generates beautiful poems based on your mood, th
    ```bash
    git clone https://github.com/your-username/Poem-Generator.git
    cd Poem-Generator
+2. **Install dependencies**
+   pip install -r requirements.txt
+3. **Set your Gemini API key**
+   genai.configure(api_key="your_api_key_here")
+4. **Run the Streamlit app**
+   streamlit run app.py
+   
+📝 License
+This project is licensed under the MIT License.
+
+💡 Future Ideas
+Add support for saving poem history
+Share poems via email or social media
+Add more moods/themes and style formats

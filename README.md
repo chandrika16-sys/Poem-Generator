@@ -27,10 +27,8 @@ A simple Streamlit web app that generates beautiful poems based on your mood, th
 4. **Run the Streamlit app**
    streamlit run app.py
    
-📝 License
-This project is licensed under the MIT License.
 
 💡 Future Ideas
-Add support for saving poem history
-Share poems via email or social media
-Add more moods/themes and style formats
+1. Add support for saving poem history
+2. Share poems via email or social media
+3. Add more moods/themes and style formats

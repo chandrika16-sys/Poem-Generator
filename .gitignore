@@ -19,4 +19,4 @@ env/
 *.log
 
 # Ignore Streamlit secrets file
-.streamlit/secrets.toml
+secrets.toml
